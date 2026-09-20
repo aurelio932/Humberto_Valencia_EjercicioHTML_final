@@ -32,6 +32,4 @@ Ejercicio final de HTML Incluye:
 - en todas las paginas se encuentra el logotipo el cual siempre lleva al inicio
 - se encuentra un apartado de aviso legal el cual este tiene al pie de la pagina las 3 secciones
 
--https://github.com/aurelio932/HumbertoValenciaVolcanes/tree/main/EjerciciofinalHTMLyCSS
-
 -https://github.com/aurelio932?tab=repositories

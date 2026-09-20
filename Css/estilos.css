@@ -75,6 +75,15 @@ main { max-width: 1100px; margin: auto; padding: 40px 20px; }
     box-shadow: 0 2px 8px rgb(241, 203, 131, 0.151);
 }
 
+.contacto iframe{
+    width: 300%;
+    height: 280px;
+    margin: auto;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+}
+
 .formulario, .contacto, .avisolegal {
     background: blanchedalmond;
     padding: 25px;

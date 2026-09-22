@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="./../Css/estilos.css">
 </head>
 <body>
+
+<!--Cremos nuevamente la cabeza y menu de navegacion entre contacto, presupuesto, producto y menu de inico o index-->
+
     <header>
         <nav>
              <p><a href="./../index.html"><img src="../Assets/imagine/Logoimagen.png" alt="Logo"></a></p>
-            <div class="logo">>Odiceaewp</div>
+            <div class="logo"></div>
                 <ul>
                     <li><a href="./../index.html">Inicio</a></li>
                     <li><a href="./../view/producto.html">Productos</a></li>
@@ -20,17 +23,21 @@
         </nav>
     </header>
 <main>
+
+<!--Creamos un formulario de solicitud de presupuesto con 4 tipos de datos
+nombre, email, numero telefonico e informacion adisional o asunto ademas de crear un boton para aceptar politica de privacidad-->
+
     <section class="formulario">
         <h1>Solicita ya tu presupuesto</h1>
         <form action="#" method="post">
             <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" title="Solo letras y espacios">
+                <input type="text" id="nombre" name="nombre" title="Solo letras y espacios" required>
 
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
 
                 <label for="telefono">Telefono</label>
-                <input type="tel" id="telefono" name="telefono" required>
+                <input type="tel" id="telefono" name="telefono" required pattern="{0-9}{9}" title="Introduce 9 digitos numericos, sin espacio ni guiones">
                 <p>Introduce 9 dígitos, sin espacios ni guiones </p>
 
                 <label for="infomacion">Informacion</label>
@@ -45,6 +52,9 @@
         </form>
     </section>
 </main>
+
+<!--Pie de pagina en cual aparece en todas la pginas con dirreccion, redes sociales y aviso legal-->
+
 <footer>
     <p>Odiceaewp - Gran via 15 piso 8 Iz, Bilbao</p>
     <p><a href="https://www.instagram.com/">

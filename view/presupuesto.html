@@ -10,7 +10,7 @@
     <header>
         <nav>
              <p><a href="./../index.html"><img src="../Assets/imagine/Logoimagen.png" alt="Logo"></a></p>
-            <div class="logo"><h2>Odiceaewp</h2></div>
+            <div class="logo">>Odiceaewp</div>
                 <ul>
                     <li><a href="./../index.html">Inicio</a></li>
                     <li><a href="./../view/producto.html">Productos</a></li>
@@ -24,20 +24,21 @@
         <h1>Solicita ya tu presupuesto</h1>
         <form action="#" method="post">
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" title="Solo letras y espacios">
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-             <label for="telefono">Telefono</label>
-            <input type="tel" id="telefono" name="telefono" required>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <p>Introduce 9 dígitos, sin espacios ni guiones </p>
 
-             <label for="infomacion">Infomacion</label>
-            <textarea id="infomacion" name="infomacion" required></textarea>
+                <label for="infomacion">Informacion</label>
+                <textarea id="infomacion" name="infomacion"></textarea>
 
-            <label for="privacidad">
-                <input type="checkBox" id="privacidad" name="privacidad" required>Acepto politica de privacidad
-            </label>
+                <label for="privacidad">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>Acepto politica de privacidad
+                </label>
 
             <button type="submit">Enviar solicitud</button>
     

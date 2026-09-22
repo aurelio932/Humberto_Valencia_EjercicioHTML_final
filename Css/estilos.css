@@ -9,6 +9,7 @@
     en la checkBox input se a puesto button para que se vea mas grande y sea mas facil de seleccionar.
  
 */
+
 * {box-sizing: border-box;}
 body{
     margin: 0;
@@ -16,11 +17,6 @@ body{
     line-height: 1.6;
     color: rgb(0, 0, 0);
     background: burlywood;
-}
-head{
-    background: black;
-    color: aliceblue;
-    padding: 20px;
 }
 
 header img{
@@ -101,7 +97,7 @@ main { max-width: 1100px; margin: auto; padding: 40px 20px; }
 
 
 label{ display: block; margin-top: 15px; font-weight: bold; }
-input textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
